@@ -21,7 +21,7 @@ this a based on Nauval's bootstrap 5 starter (https://github.com/nauvalazhar/boo
 
 # coming soon
 - bootstrap 5 validation. [currently the default from the login template]
-- weight loss calculations have been written in javascript, currently working on merging them with the form elements
+- bmr, tdee, and deficit calculations have been written in javascript, currently working on merging them with the form elements
 
 # report bugs
 find a bug? please [create an issue](https://github.com/tiganabryan/varied-intake-calculator/issues) and we'll fix it together for a better calculator:)
@@ -35,7 +35,7 @@ contributions are always welcome! here's how:
 - create a pull request
 
 # changelogs
-### May 23, 2022
+### may 23, 2022
   - **initial release bootstrap-only version**
 
 # license
