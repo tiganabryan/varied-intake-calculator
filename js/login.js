@@ -12,8 +12,6 @@ document.getElementById("weightloss").innerHTML = `in ${testDietLength} days, yo
 
 
 
-
-
 //
 (function () {
 	'use strict'
