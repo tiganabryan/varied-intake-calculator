@@ -1,5 +1,3 @@
-//const { Button } = require("bootstrap");
-
 //testing javascript diet numbers in html
 let testTdee = 1600;
 let testDietLength = 4;
@@ -8,12 +6,7 @@ let testWeightLoss = .6667;
 document.getElementById("tdee").innerHTML = `your tdee is ${testTdee} calories per day.`;
 document.getElementById("weightloss").innerHTML = `in ${testDietLength} days, you will lose ${testWeightLoss}kgs.`;
 
-//const userInput = document.getElementById("login-form"); loginForm.addEventListener("submit", handleSubmit);
 
-//let age = document.getElementById("age").value; 
-//console.log(age);
-
-//console.log(document.getElementById("age").value);
 
 const myForm = document.getElementById("myForm");
 
@@ -36,8 +29,8 @@ myForm.addEventListener("submit", (e) => {
 	let dietLength = document.getElementById("diet-length").value;
 	console.log(dietLength);
 
-	let exerciseFrequency = document.getElementById("exercise-frequency").value;
-	console.log(exerciseFrequency);
+	let activityLevel = document.getElementById("activity-level").value;
+	console.log(activityLevel);
 
 	let intake1 = document.getElementById("intake1").value;
 	console.log(intake1);
@@ -50,11 +43,15 @@ myForm.addEventListener("submit", (e) => {
 
 	let intake4 = document.getElementById("intake4").value;
 	console.log(intake4);
+
+	const femaleBmr = 9.99 * weightkg + (6.25 * heightcm) - (4.92 * age) - 161;
+    console.log(Number(femaleBmr));
+
+	const femaleTdee = Number(femaleBmr) * Number(activityLevel);
+    console.log(Number(femaleTdee));
 })
 
-//function userSubmit(event) {
-//	event.preventDefault();
-//}
+
 	
 
 
