@@ -52,18 +52,18 @@ myForm.addEventListener("submit", (e) => {
 
 	document.getElementById("tdee").innerHTML = `your tdee is ${parseInt(femaleTdee)} calories per day.`;
 
-	let intakes = [Number(intake1), Number(intake2), Number(intake3), Number(intake4)];
+	const intakes = [Number(intake1), Number(intake2), Number(intake3), Number(intake4)];
 
-	let deficits = intakes.map(function(value) {
-		return femaleTdee - value;
+	const deficits = intakes.map(intakeItem => {
+		return femaleTdee - intakeItem
 	});
 
 	console.log(deficits);
 
-	var kgsInCalories = 0;
+	let kgsInCalories = 0;
 
-	for (let i = 0; i < intakes.length; i++) {
-        kgsInCalories += intakes[i];
+	for (let i = 0; i < deficits.length; i++) {
+        kgsInCalories += deficits[i];
     }
 
 	console.log(kgsInCalories);
