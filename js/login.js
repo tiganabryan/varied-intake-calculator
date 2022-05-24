@@ -1,9 +1,11 @@
-let tdee = 1600;
-let dietLength = 4;
-let weightLoss = .6667;
+//testing javascript diet numbers in html
+let testTdee = 1600;
+let testDietLength = 4;
+let testWeightLoss = .6667;
 
-document.getElementById("tdee").innerHTML = `your tdee is ${tdee} calories per day.`;
-document.getElementById("weightloss").innerHTML = `in ${dietLength} days, you will lose ${weightLoss}kgs.`;
+document.getElementById("tdee").innerHTML = `your tdee is ${testTdee} calories per day.`;
+document.getElementById("weightloss").innerHTML = `in ${testDietLength} days, you will lose ${testWeightLoss}kgs.`;
+
 
 
 
