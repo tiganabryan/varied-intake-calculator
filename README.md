@@ -18,6 +18,7 @@ this a based on Nauval's bootstrap 5 starter (https://github.com/nauvalazhar/boo
 - live compilation of sass
 - link to meal planner
 - colour scheme codes saved in txt
+- "feedback" links to anonymous suggestion site
 
 # coming soon
 - bootstrap 5 validation. [currently the default from the login template]
