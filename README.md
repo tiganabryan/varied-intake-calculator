@@ -4,15 +4,12 @@
 ![Author](https://img.shields.io/badge/author-%40tiganabryan-blue.svg)
 [![Twitter](https://img.shields.io/twitter/url?color=ff69b4&style=social&url=https%3A%2F%2Ftiganabryan.github.io%2Fvaried-intake-weightloss%2Findex.html)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.github.com%2Ftiganabryan%2Fvaried-intake-weightloss&via=tiganarox&text=Wow.%20This%20weight%20loss%20calculator%20lets%20you%20use%20multiple%20calorie%20intakes.)
 
-CREDIT: this is a based on Nauval's "Bootstrap 5 Login Page template" (https://github.com/nauvalazhar/bootstrap-5-login-page).
+this is a based on Nauval's "Bootstrap 5 Login Page template" (https://github.com/nauvalazhar/bootstrap-5-login-page).
 
 <div align="center">
 <img src="img\page-screenshot.png">
 </div>
 
-
-# demo
-- [view the project](https://tiganabryan.github.io/varied-intake-weightloss/index.html)
 
 # features
 - displays javascript variable values in HTML
@@ -39,10 +36,10 @@ contributions are always welcome! here's how:
 
 # changelogs
 ### May 23, 2022
-  - **Initial release Bootstrap-only version ([see here]())**
+  - **initial release bootstrap-only version**
 
 # License
 [MIT License](http://opensource.org/licenses/MIT)
 
 ---
-<div align="center">have a beautiful day🤍</div>
+<div align="center">have a beautiful day<br>🤍</div>
