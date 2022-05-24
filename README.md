@@ -1,64 +1,48 @@
-# Bootstrap 5 Login Page 
+# varied intake weight loss calculator 
 
 [![GitHub license](https://img.shields.io/github/license/nauvalazhar/my-login.svg)](https://github.com/nauvalazhar/bootstrap-5-login-page/blob/master/LICENSE)
-![Author](https://img.shields.io/badge/author-%40nauvalazhar-blue.svg)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/nauvalazhar/bootstrap-5-login-page/.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fnauvalazhar%2Fbootstrap-5-login-page%2F)
+![Author](https://img.shields.io/badge/author-%40tiganabryan-blue.svg)
+[![Twitter](https://img.shields.io/twitter/url?color=ff69b4&style=social&url=https%3A%2F%2Ftiganabryan.github.io%2Fvaried-intake-weightloss%2Findex.html)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.github.com%2Ftiganabryan%2Fvaried-intake-weightloss&via=tiganarox&text=Wow.%20This%20weight%20loss%20calculator%20lets%20you%20use%20multiple%20calorie%20intakes.)
 
-This is a Bootstrap 5 Login Page template, you can use it as you wish and it's free for personal or commercial use.
+CREDIT: this is a based on Nauval's "Bootstrap 5 Login Page template" (https://github.com/nauvalazhar/bootstrap-5-login-page).
 
 <div align="center">
-<img src="https://i.ibb.co/pfbd8TS/Screenshot-2021-03-06-Bootstrap-5-Login-Page-2.png">
-<img src="https://i.ibb.co/CQsJsBT/Screenshot-1.png">
+<img src="img\page-screenshot.png">
 </div>
 
-# Installation
-Let's make it easy! Just download this template, use it on your project.
 
-# Demo
-- [Login](https://nauvalazhar.github.io/bootstrap-5-login-page/index.html)
-- [Register](https://nauvalazhar.github.io/bootstrap-5-login-page/register.html)
-- [Forgot Password](https://nauvalazhar.github.io/bootstrap-5-login-page/forgot.html)
-- [Reset Password](https://nauvalazhar.github.io/bootstrap-5-login-page/reset.html)
+# demo
+- [view the project](https://tiganabryan.github.io/varied-intake-weightloss/index.html)
 
-# Features
-- Bootstrap 5 (Beta 2)
-- Bootstrap 5 Validation
-- Verified by W3C
-- 4 Pages included (Login, Register, Forgot Password, Reset Password)
-- No custom classes 
-- Easy to use
-- Cross-browser compatibility (Chrome, Firefox, Opera, IE11, Safari)
-- Fully responsive
-- and more ...
+# features
+- displays javascript variable values in HTML
+- nested rows
+- customized bootstrap with sass
+- live compilation of sass
+- link to meal planner
+- colour scheme codes saved in txt
 
-# Report Some Bugs
-Find a Bug? Please, [create an issue](https://github.com/nauvalazhar/bootstrap-5-login-page/issues) and we'll fix it together for a better template.
+# coming soon
+- bootstrap 5 validation. [currently the default from the login template]
+- weight loss calculations have been written in javascript, currently working on merging them with the form elements
 
-# Contribution
-Contribution are always welcome and recommended! Here is how:
+# report bugs
+find a bug? please [create an issue]() and we'll fix it together for a better calculator:)
 
-- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
-- Clone to your machine git clone https://github.com/YOUR_USERNAME/bootstrap-5-login-page.git
-- Make your changes
-- Create a pull request
+# contribution
+contributions are always welcome! here's how:
 
-# Changelogs
-### Mar 06, 2021
-  - **Initial release for Bootstrap 5 version**
-### Aug 29, 2017
-  - **Initial release for BOotstrap 4 version ([see here](https://github.com/nauvalazhar/bootstrap-4-login-page))**
+- fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
+- clone to your machine git clone https://github.com/YOUR_USERNAME/bootstrap-5-login-page.git
+- make your changes
+- create a pull request
 
-# Looking For a Free Admin Template?
-Stisla is waiting for you. [Download now](https://getstisla.com).
-
-[![Stisla Preview](https://getstisla.com/landing/stisla-share.png)](https://getstisla.com)
-
-
-# Buy me a Coffee
-Support me :) http://buymeacoff.ee/mhdnauvalazhar
+# changelogs
+### May 23, 2022
+  - **Initial release Bootstrap-only version ([see here]())**
 
 # License
 [MIT License](http://opensource.org/licenses/MIT)
 
 ---
-<div align="center">Have a good day! ❤️</div>
+<div align="center">have a beautiful day🤍</div>

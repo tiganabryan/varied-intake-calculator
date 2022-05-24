@@ -1,0 +1,26 @@
+$container-max-widths: (
+  sm: 540px,
+  md: 600px,
+  lg: 800px, 
+  xl: 820px, //my laptop, change rest later
+  xxl: 600px
+);
+
+$thumbnail-border-width: 0px;
+
+$enable-negative-margins: true;
+
+.img-thumbnail {
+    max-width: auto;
+}
+
+#meal-plan {
+    font-size: 1rem;
+}
+
+#meal-link {
+    text-decoration: none;
+    color: black;
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss'

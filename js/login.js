@@ -1,3 +1,18 @@
+let tdee = 1600;
+let dietLength = 4;
+let weightLoss = .6667;
+
+document.getElementById("tdee").innerHTML = `your tdee is ${tdee} calories per day.`;
+document.getElementById("weightloss").innerHTML = `in ${dietLength} days, you will lose ${weightLoss}kgs.`;
+
+
+
+
+
+
+
+
+//
 (function () {
 	'use strict'
 
