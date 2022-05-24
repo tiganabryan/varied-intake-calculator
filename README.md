@@ -24,13 +24,13 @@ this a based on Nauval's "Bootstrap 5 Login Page template" (https://github.com/n
 - weight loss calculations have been written in javascript, currently working on merging them with the form elements
 
 # report bugs
-find a bug? please [create an issue]() and we'll fix it together for a better calculator:)
+find a bug? please [create an issue](https://github.com/tiganabryan/varied-intake-calculator/issues) and we'll fix it together for a better calculator:)
 
 # contribution
 contributions are always welcome! here's how:
 
 - fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
-- clone to your machine git clone https://github.com/YOUR_USERNAME/bootstrap-5-login-page.git
+- clone to your machine git clone https://github.com/YOUR_USERNAME/varied-intake-calculator.git
 - make your changes
 - create a pull request
 
@@ -38,7 +38,7 @@ contributions are always welcome! here's how:
 ### May 23, 2022
   - **initial release bootstrap-only version**
 
-# License
+# license
 [MIT License](http://opensource.org/licenses/MIT)
 
 ---
