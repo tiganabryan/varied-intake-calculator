@@ -29,7 +29,7 @@
 
                                         <div class="col mb-3 form-floating">
                                             <div class="form-floating">
-                                                <input type="number" class="form-control" id="age" name="age" placeholder="20" required>
+                                                <input type="number" class="form-control" id="age" name="age" placeholder="20" min="18" max="140" required>
                                                 <label class="label text-muted" id="age" for="age">age</label>
                                             </div>
                                             <div class="invalid-feedback">
@@ -58,9 +58,8 @@
                                         </div>
 
                                         <div class="col">
-                                            <select class="form-select p-3 border text-muted" id="sex" required>lorem</div>
-                                                <option selected>sex</option>
-                                                <option value="female">female</option>
+                                            <select class="form-select p-3 border text-muted" id="sex" name="sex" required></div>
+                                                <option value="female" selected>female</option>
                                                 <option value="male">male</option>
                                             </select>
                                         </div>
