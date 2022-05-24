@@ -3,8 +3,8 @@ let testTdee = 1600;
 let testDietLength = 4;
 let testWeightLoss = .6667;
 
-document.getElementById("tdee").innerHTML = `your tdee is ${testTdee} calories per day.`;
-document.getElementById("weightloss").innerHTML = `in ${testDietLength} days, you will lose ${testWeightLoss}kgs.`;
+
+
 
 
 
@@ -49,6 +49,30 @@ myForm.addEventListener("submit", (e) => {
 
 	const femaleTdee = Number(femaleBmr) * Number(activityLevel);
     console.log(Number(femaleTdee));
+
+	document.getElementById("tdee").innerHTML = `your tdee is ${parseInt(femaleTdee)} calories per day.`;
+
+	let intakes = [Number(intake1), Number(intake2), Number(intake3), Number(intake4)];
+
+	let deficits = intakes.map(function(value) {
+		return femaleTdee - value;
+	});
+
+	console.log(deficits);
+
+	var kgsInCalories = 0;
+
+	for (let i = 0; i < intakes.length; i++) {
+        kgsInCalories += intakes[i];
+    }
+
+	console.log(kgsInCalories);
+
+	const weightLoss = kgsInCalories / 7716.1805;
+
+    console.log(weightLoss);
+
+	document.getElementById("weightloss").innerHTML = `in ${dietLength} days, you will lose ${weightLoss.toFixed(2)}kgs.`;
 })
 
 
