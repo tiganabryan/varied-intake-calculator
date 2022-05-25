@@ -4,12 +4,18 @@
 ![Author](https://img.shields.io/badge/author-%40tiganabryan-blue.svg)
 [![Twitter](https://img.shields.io/twitter/url?color=ff69b4&style=social&url=https%3A%2F%2Ftiganabryan.github.io%2Fvaried-intake-weightloss%2Findex.html)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.github.com%2Ftiganabryan%2Fvaried-intake-weightloss&via=tiganarox&text=Wow.%20This%20weight%20loss%20calculator%20lets%20you%20use%20multiple%20calorie%20intakes.)
 
+all weight loss calculators on the internet give you the option to input one calorie goal per timeline. this isn't healthy if you're exercising. the varied intake weight loss calculator allows you to input multiple intakes for a realistic weight loss estimate.
+
 this a based on Nauval's bootstrap 5 starter (https://github.com/nauvalazhar/bootstrap-5-login-page).
 
 <div align="center">
 <img src="img\page-screenshot.png">
 </div>
 
+# about
+- bmr: basic metabolic rate (calories your brain needs to function)
+- tdee: total daily energy expenditure (calories your body needs, relative to activity level)
+- deficit: the difference between the calories consumed and the tdee, this is what causes weight loss
 
 # features
 - female bmr, tdee, and deficit calculations from form input
