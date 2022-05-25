@@ -12,6 +12,7 @@ this a based on Nauval's bootstrap 5 starter (https://github.com/nauvalazhar/boo
 
 
 # features
+- female bmr, tdee, and deficit calculations from form input
 - displays javascript variable values in HTML
 - nested rows
 - customized bootstrap with sass
@@ -21,8 +22,9 @@ this a based on Nauval's bootstrap 5 starter (https://github.com/nauvalazhar/boo
 - "feedback" links to anonymous suggestion site
 
 # coming soon
-- bootstrap 5 validation. [currently the default from the login template]
-- bmr, tdee, and deficit calculations have been written in javascript, currently working on merging them with the form elements
+- male bmr, tdee, deficit calculations from form input
+- dynamic input fields
+- bootstrap 5 validation
 
 # report bugs
 find a bug? please [create an issue](https://github.com/tiganabryan/varied-intake-calculator/issues) and we'll fix it together for a better calculator:)
@@ -36,6 +38,8 @@ contributions are always welcome! here's how:
 - create a pull request
 
 # changelogs
+### may 24, 2022
+  - **female-input-only version**
 ### may 23, 2022
   - **initial release bootstrap-only version**
 

@@ -53,6 +53,8 @@ myForm.addEventListener("submit", (e) => {
 
 	document.getElementById("tdee").innerHTML = `your tdee is ${parseInt(femaleTdee)} calories per day.`;
 
+	// change number of cal inputs based on id diet-length.
+
 	const intakes = [Number(intake1), Number(intake2), Number(intake3), Number(intake4)];
 
 	const deficits = intakes.map(intakeItem => {
