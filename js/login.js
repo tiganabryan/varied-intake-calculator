@@ -45,8 +45,31 @@ myForm.addEventListener("submit", (e) => {
 	let intake4 = document.getElementById("intake4").value;
 	console.log(intake4);
 
-	const femaleBmr = 9.99 * weightkg + (6.25 * heightcm) - (4.92 * age) - 161;
-    console.log(Number(femaleBmr));
+	function maleBmrFunc(weight, height, age) {
+		return 9.99 * weight + (6.25 * height) - (4.92 * age) + 5;
+	}
+
+
+	function femaleBmrFunc(weight, height, age) {
+		return 9.99 * weight + (6.25 * height) - (4.92 * age) - 161;
+	}
+
+
+	function sexInputFunc() {
+		switch (document.getElementById("sex").value) {
+			case 'female':
+			 	const femaleBmr = femaleBmrFunc(weightkg, heightcm, age);
+				 console.log(femaleBmr);
+				 break;
+
+			case 'male':
+				const maleBmr = maleBmrFunc(weightkg, heightcm, age);
+				break;
+
+		}
+	}
+
+	sexInputFunc();
 
 	const femaleTdee = Number(femaleBmr) * Number(activityLevel);
     console.log(Number(femaleTdee));
