@@ -8,7 +8,7 @@ weight loss calculator websites give you one intake option for the entirety of y
 
 the varied intake weight loss calculator allows you to input multiple intakes for safe weight loss.
 
-this is based on [Nauval's bootstrap 5 starter] (https://github.com/nauvalazhar/bootstrap-5-login-page).
+this is based on [Nauval's bootstrap 5 starter](https://github.com/nauvalazhar/bootstrap-5-login-page).
 
 <div align="center">
 <img src="img\screenshot-june4th2022.png">
