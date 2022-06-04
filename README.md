@@ -11,7 +11,7 @@ the varied intake weight loss calculator allows you to input multiple intakes fo
 this is based on Nauval's bootstrap 5 starter (https://github.com/nauvalazhar/bootstrap-5-login-page).
 
 <div align="center">
-<img src="img\page-screenshot.png">
+<img src="img\screenshot-june4th2022.png">
 </div>
 
 # background info
