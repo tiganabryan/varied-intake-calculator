@@ -31,7 +31,6 @@ this is based on [Nauval's bootstrap 5 starter](https://github.com/nauvalazhar/b
 
 # coming soon
 - dynamic input fields with React
-- bootstrap 5 validation
 - ability to switch to imperial input
 
 # report bugs
