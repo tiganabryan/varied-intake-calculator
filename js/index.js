@@ -38,7 +38,8 @@ myForm.addEventListener("submit", (e) => {
 	let intake4 = document.getElementById("intake4").value;
 	console.log(intake4);
 
-	const bmr = (sex === 'female') ? 9.99 * weightkg + (6.25 * heightcm) - (4.92 * age) - 161 : 9.99 * weightkg + (6.25 * heightcm) - (4.92 * age) + 5;
+	const bmr = (sex === 'female') ? 9.99 * weightkg + (6.25 * heightcm) - (4.92 * age) - 161 :
+									9.99 * weightkg + (6.25 * heightcm) - (4.92 * age) + 5;
 
 	const tdee = Number(bmr) * Number(activityLevel);
 
