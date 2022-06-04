@@ -1,10 +1,10 @@
 # varied intake weight loss calculator 
 
-[![GitHub license](https://img.shields.io/github/license/nauvalazhar/my-login.svg)](https://github.com/nauvalazhar/bootstrap-5-login-page/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/nauvalazhar/my-login.svg)](https://github.com/tiganabryan/varied-intake-calculator/blob/master/MIT-LICENSE.txt)
 ![Author](https://img.shields.io/badge/author-%40tiganabryan-blue.svg)
 [![Twitter](https://img.shields.io/twitter/url?color=ff69b4&style=social&url=https%3A%2F%2Ftiganabryan.github.io%2Fvaried-intake-weightloss%2Findex.html)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.github.com%2Ftiganabryan%2Fvaried-intake-weightloss&via=tiganarox&text=Wow.%20This%20weight%20loss%20calculator%20lets%20you%20use%20multiple%20calorie%20intakes.)
 
-weight loss calculator websites give you one intake option for the entirety of your weight loss journey -- this isn't healthy or realistic. your resting intake and active intake fluctuate so you have enough energy to function.
+weight loss calculator websites give you one intake option for the entirety of your weight loss journey -- this isn't healthy or realistic. your resting intake and active intakes must fluctuate so you have enough energy to function.
 
 the varied intake weight loss calculator allows you to input multiple intakes for safe weight loss.
 
@@ -20,7 +20,7 @@ this is based on Nauval's bootstrap 5 starter (https://github.com/nauvalazhar/bo
 - deficit: the difference between the calories consumed and the tdee, this is what causes weight loss
 
 # features
-- female bmr, tdee, and deficit calculations from form input
+- male and female bmr, tdee, and deficit calculations from form input
 - displays javascript variable values in HTML
 - nested rows
 - customized bootstrap with sass
@@ -30,10 +30,9 @@ this is based on Nauval's bootstrap 5 starter (https://github.com/nauvalazhar/bo
 - "feedback" links to anonymous suggestion site
 
 # coming soon
-- male bmr, tdee, deficit calculations from form input
 - dynamic input fields
 - bootstrap 5 validation
-- switch to imperial input
+- ability to switch to imperial input
 
 # report bugs
 find a bug? please [create an issue](https://github.com/tiganabryan/varied-intake-calculator/issues) and we'll fix it together for a better calculator:)
@@ -47,6 +46,8 @@ contributions are always welcome! here's how:
 - create a pull request
 
 # changelogs
+### june 6th, 2022
+  - **male and female input version**
 ### may 24, 2022
   - **female-input-only version**
 ### may 23, 2022
