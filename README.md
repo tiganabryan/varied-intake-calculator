@@ -33,6 +33,7 @@ this is based on Nauval's bootstrap 5 starter (https://github.com/nauvalazhar/bo
 - male bmr, tdee, deficit calculations from form input
 - dynamic input fields
 - bootstrap 5 validation
+- switch to imperial input
 
 # report bugs
 find a bug? please [create an issue](https://github.com/tiganabryan/varied-intake-calculator/issues) and we'll fix it together for a better calculator:)
