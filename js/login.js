@@ -45,43 +45,49 @@ myForm.addEventListener("submit", (e) => {
 	let intake4 = document.getElementById("intake4").value;
 	console.log(intake4);
 
-	function maleBmrFunc(weight, height, age) {
-		return 9.99 * weight + (6.25 * height) - (4.92 * age) + 5;
-	}
+	const bmr = (sex === 'female') ? 9.99 * weightkg + (6.25 * heightcm) - (4.92 * age) - 161 : 9.99 * weightkg + (6.25 * heightcm) - (4.92 * age) + 5;
+
+	const tdee = Number(bmr) * Number(activityLevel);
+
+	console.log(Number(tdee));
 
 
-	function femaleBmrFunc(weight, height, age) {
-		return 9.99 * weight + (6.25 * height) - (4.92 * age) - 161;
-	}
+
+	// function maleBmrFunc(weight, height, age) {
+	// 	return 9.99 * weight + (6.25 * height) - (4.92 * age) + 5;
+	// }
 
 
-	function sexInputFunc() {
-		switch (document.getElementById("sex").value) {
-			case 'female':
-			 	const femaleBmr = femaleBmrFunc(weightkg, heightcm, age);
-				 console.log(femaleBmr);
-				 break;
+	// function femaleBmrFunc(weight, height, age) {
+	// 	return 9.99 * weight + (6.25 * height) - (4.92 * age) - 161;
+	// }
 
-			case 'male':
-				const maleBmr = maleBmrFunc(weightkg, heightcm, age);
-				break;
 
-		}
-	}
+	// function sexInputFunc() {
+	// 	switch (document.getElementById("sex").value) {
+	// 		case 'female':
+	// 		 	const femaleBmr = femaleBmrFunc(weightkg, heightcm, age);
+	// 			 console.log(femaleBmr);
+	// 			 break;
 
-	sexInputFunc();
+	// 		case 'male':
+	// 			const maleBmr = maleBmrFunc(weightkg, heightcm, age);
+	// 			break;
 
-	const femaleTdee = Number(femaleBmr) * Number(activityLevel);
-    console.log(Number(femaleTdee));
+	// 	}
+	// }
 
-	document.getElementById("tdee").innerHTML = `your tdee is ${parseInt(femaleTdee)} calories per day.`;
+	// sexInputFunc();
+
+	// const femaleTdee = Number(femaleBmr) * Number(activityLevel);
+
 
 	// change number of cal inputs based on id diet-length.
 
 	const intakes = [Number(intake1), Number(intake2), Number(intake3), Number(intake4)];
 
 	const deficits = intakes.map(intakeItem => {
-		return femaleTdee - intakeItem
+		return tdee - intakeItem
 	});
 
 	console.log(deficits);
@@ -99,6 +105,8 @@ myForm.addEventListener("submit", (e) => {
     console.log(weightLoss);
 
 	document.getElementById("weightloss").innerHTML = `in ${dietLength} days, you will lose ${weightLoss.toFixed(2)}kgs.`;
+	document.getElementById("tdee").innerHTML = `your tdee is ${parseInt(tdee)} calories per day.`;
+
 
 	//unhide answer for user
 	document.getElementById("tdee").style.display = "block";
