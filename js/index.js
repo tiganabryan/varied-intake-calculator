@@ -1,10 +1,3 @@
-//testing javascript diet numbers in html
-let testTdee = 1600;
-let testDietLength = 4;
-let testWeightLoss = .6667;
-
-
-
 document.getElementById("tdee").style.display = "none";
 document.getElementById("weightloss").style.display = "none";
 
