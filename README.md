@@ -21,12 +21,12 @@ this is based on [Nauval's bootstrap 5 starter](https://github.com/nauvalazhar/b
 
 # features
 - male and female bmr, tdee, and deficit calculations from form input
+- age minimum (18)
 - displays javascript variable values in HTML
 - nested rows
 - customized bootstrap with sass
 - live compilation of sass
 - link to meal planner
-- colour scheme codes saved in txt
 - "feedback" links to anonymous suggestion site
 
 # coming soon
